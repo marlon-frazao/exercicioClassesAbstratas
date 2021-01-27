@@ -27,6 +27,6 @@ public abstract class Pessoa {
 	
 	@Override
 	public String toString() {
-		return getNome() + ": " + String.format("%.2f", calcularImposto());
+		return nome + ": $" + String.format("%.2f", calcularImposto());
 	}
 }
